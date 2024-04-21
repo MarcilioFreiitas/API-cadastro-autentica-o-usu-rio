@@ -1,6 +1,6 @@
 # Autentica Fácil 🔐
 
-"Autentica Fácil" é uma aplicação completa com frontend em React Native e Expo e backend em Java. Os dois sistemas se comunicam para fornecer uma experiência de usuário suave e segura.
+"Autentica Fácil" é uma aplicação completa com frontend do App cidades IBGE em React Native e Expo e backend em Java. Os dois sistemas se comunicam para fornecer uma experiência de usuário suave e segura.
 
 ## Pré-requisitos 📋
 
