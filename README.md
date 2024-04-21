@@ -1,14 +1,24 @@
 # Autentica Fácil 🔐
 
-"Autentica Fácil" é uma API de cadastro e autenticação de usuários simples e segura. Ela permite que os desenvolvedores implementem funcionalidades de registro e login em suas aplicações de maneira eficiente. Com ela, os usuários podem criar uma conta fornecendo apenas um nome de usuário e senha. A API então verifica se o usuário está cadastrado no banco de dados 🗃️.
+"Autentica Fácil" é uma aplicação completa com frontend em React Native e Expo e backend em Java. Os dois sistemas se comunicam para fornecer uma experiência de usuário suave e segura.
+
+## Pré-requisitos 📋
+
+Este projeto é composto por duas partes: o frontend (React Native) e o backend (Java). Ambos precisam estar em execução para que a aplicação funcione corretamente.
 
 ## Como Instalar 🛠️
 
-1. Clone o repositório para o seu computador usando `git clone`.
-2. Navegue até a pasta do projeto e execute `npm install` para instalar todas as dependências.
+### Backend
 
-## Como Usar 🚀
+1. Navegue até a pasta do backend e execute `mvn install` para instalar todas as dependências do projeto Java.
+2. Para iniciar o servidor, execute `mvn spring-boot:run`.
 
-Para iniciar a API, execute `npm start` no terminal. A API estará disponível no endereço `http://localhost:3000`.
+### Frontend
+
+1. Certifique-se de ter o Expo CLI instalado globalmente em seu computador. Se não, você pode instalá-lo com `npm install -g expo-cli`.
+2. Navegue até a pasta do frontend e execute `npm install` para instalar todas as dependências do projeto React Native.
+3. Para iniciar a aplicação React Native, execute `expo start`.
+
+Agora, ambos os sistemas devem estar em execução e se comunicando entre si. Você pode acessar a aplicação React Native através do aplicativo Expo em seu dispositivo móvel.
 
 Esperamos que você aproveite usar o "Autentica Fácil"! Se você tiver alguma dúvida ou feedback, não hesite em abrir uma issue no GitHub.
